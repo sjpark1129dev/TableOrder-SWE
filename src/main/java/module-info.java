@@ -11,5 +11,7 @@ module deu.swe2.tableorder {
     requires eu.hansolo.tilesfx;
 
     opens deu.swe2.tableorder to javafx.fxml;
+    opens deu.swe2.tableorder.boundary to javafx.fxml;
     exports deu.swe2.tableorder;
+    exports deu.swe2.tableorder.boundary;
 }

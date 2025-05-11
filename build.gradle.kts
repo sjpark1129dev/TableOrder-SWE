@@ -27,7 +27,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("deu.swe2.tableorder")
-    mainClass.set("deu.swe2.tableorder.HelloApplication")
+    mainClass.set("deu.swe2.tableorder.Main")
 }
 
 javafx {
