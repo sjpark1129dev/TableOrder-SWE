@@ -9,6 +9,7 @@ module deu.swe2.tableorder {
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
+    requires java.desktop;
 
     opens deu.swe2.tableorder to javafx.fxml;
     opens deu.swe2.tableorder.boundary to javafx.fxml;

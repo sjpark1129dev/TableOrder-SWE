@@ -9,7 +9,7 @@ import javafx.scene.layout.GridPane;
 
 import java.util.List;
 
-public class TableManagerUI {
+public class TableManagerBoundary {
 
     @FXML private GridPane tableGrid;
     @FXML private TextField tableNumberField;

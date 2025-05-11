@@ -1,6 +1,5 @@
 package deu.swe2.tableorder.entity;
 
-import deu.swe2.tableorder.entity.TableInfo;
 import java.util.ArrayList;
 import java.util.List;
 

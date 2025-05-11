@@ -9,10 +9,10 @@ import javafx.scene.Parent;
 public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("TableManagerUI.fxml"));
-        Scene scene = new Scene(root, 600, 400);
+        Parent root = FXMLLoader.load(getClass().getResource("TableViewUI.fxml"));
+        Scene scene = new Scene(root, 1200, 600);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("테이블 관리 (FXML)");
+        primaryStage.setTitle("포스 메인화면");
         primaryStage.show();
     }
 
