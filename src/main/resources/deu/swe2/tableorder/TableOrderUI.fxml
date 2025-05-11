@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="828.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Button mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" text="고기" />
+        <Button layoutY="51.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" text="주류" />
+        <Button layoutY="102.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" text="식사" />
+        <Button layoutY="153.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" text="음료" />
+        <Button layoutY="204.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" text="반찬" />
+        <GridPane layoutX="122.0" layoutY="2.0" prefHeight="447.0" prefWidth="493.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.0" minWidth="10.0" prefWidth="166.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="180.0" minWidth="10.0" prefWidth="168.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="176.0" minWidth="10.0" prefWidth="159.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="158.0" minHeight="10.0" prefHeight="125.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="158.0" minHeight="10.0" prefHeight="28.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="177.0" minHeight="0.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="325.0" minHeight="10.0" prefHeight="103.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="315.0" minHeight="10.0" prefHeight="31.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="315.0" minHeight="10.0" prefHeight="32.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="315.0" minHeight="10.0" prefHeight="98.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <ImageView fitHeight="108.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../Downloads/고기.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="111.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                    <image>
+                        <Image url="@../Downloads/고기2.jpg" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="14.0" prefWidth="173.0" text="고기" textAlignment="CENTER" GridPane.rowIndex="1" />
+                <SplitPane dividerPositions="0.4827586206896552" prefHeight="160.0" prefWidth="200.0" GridPane.rowIndex="2">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Label layoutX="4.0" layoutY="-3.0" prefHeight="33.0" prefWidth="63.0" text="10000원" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Button layoutX="18.0" layoutY="3.0" mnemonicParsing="false" text="+" />
+                                <Button layoutX="48.0" layoutY="3.0" mnemonicParsing="false" text="-" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+                <ImageView fitHeight="108.0" fitWidth="163.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+                    <image>
+                        <Image url="@../Downloads/고기.jpg" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="14.0" prefWidth="173.0" text="고기" textAlignment="CENTER" GridPane.rowIndex="4" />
+                <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0" GridPane.rowIndex="5">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Label layoutX="4.0" layoutY="-3.0" prefHeight="33.0" prefWidth="63.0" text="10000원" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Button layoutX="18.0" layoutY="3.0" mnemonicParsing="false" text="+" />
+                                <Button layoutX="48.0" layoutY="3.0" mnemonicParsing="false" text="-" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+                <ImageView fitHeight="111.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <image>
+                        <Image url="@../Downloads/고기2.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="111.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2">
+                    <image>
+                        <Image url="@../Downloads/고기2.jpg" />
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="111.0" fitWidth="162.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                    <image>
+                        <Image url="@../Downloads/고기2.jpg" />
+                    </image>
+                </ImageView>
+                <Label prefHeight="14.0" prefWidth="173.0" text="고기" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label prefHeight="14.0" prefWidth="173.0" text="고기" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                <Label prefHeight="14.0" prefWidth="173.0" text="고기" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                <Label prefHeight="14.0" prefWidth="173.0" text="고기" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                <SplitPane dividerPositions="0.4827586206896552" prefHeight="160.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Label layoutX="4.0" layoutY="-3.0" prefHeight="33.0" prefWidth="63.0" text="10000원" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Button layoutX="18.0" layoutY="3.0" mnemonicParsing="false" text="+" />
+                                <Button layoutX="48.0" layoutY="3.0" mnemonicParsing="false" text="-" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+                <SplitPane dividerPositions="0.4827586206896552" prefHeight="160.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Label layoutX="4.0" layoutY="-3.0" prefHeight="33.0" prefWidth="63.0" text="10000원" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Button layoutX="18.0" layoutY="3.0" mnemonicParsing="false" text="+" />
+                                <Button layoutX="48.0" layoutY="3.0" mnemonicParsing="false" text="-" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+                <SplitPane dividerPositions="0.4827586206896552" prefHeight="160.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Label layoutX="4.0" layoutY="-3.0" prefHeight="33.0" prefWidth="63.0" text="10000원" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Button layoutX="18.0" layoutY="3.0" mnemonicParsing="false" text="+" />
+                                <Button layoutX="48.0" layoutY="3.0" mnemonicParsing="false" text="-" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+                <SplitPane dividerPositions="0.4827586206896552" prefHeight="160.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                    <items>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Label layoutX="4.0" layoutY="-3.0" prefHeight="33.0" prefWidth="63.0" text="10000원" textAlignment="CENTER">
+                                    <font>
+                                        <Font size="18.0" />
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                            <children>
+                                <Button layoutX="18.0" layoutY="3.0" mnemonicParsing="false" text="+" />
+                                <Button layoutX="48.0" layoutY="3.0" mnemonicParsing="false" text="-" />
+                            </children>
+                        </AnchorPane>
+                    </items>
+                </SplitPane>
+            </children>
+        </GridPane>
+        <ListView layoutX="628.0" layoutY="2.0" prefHeight="407.0" prefWidth="200.0" />
+        <Button layoutX="628.0" layoutY="487.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="200.0" text="주문" />
+        <Label layoutX="628.0" layoutY="9.0" prefHeight="135.0" prefWidth="133.0" text="장바구니" />
+        <Button layoutY="256.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="115.0" text="집기류" />
+        <Button layoutY="487.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="183.0" text="주문 내역 조회" />
+    </children>
+</Pane>
