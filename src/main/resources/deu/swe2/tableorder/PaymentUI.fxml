@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="327.0" prefWidth="458.0"
+      xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.HelloController">
+    <children>
+        <TableView fx:id="menuTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="457.0">
+            <columns>
+                <TableColumn fx:id="menuColumn" prefWidth="114.4000244140625" text="메뉴명" />
+                <TableColumn fx:id="priceColumn" prefWidth="122.4000244140625" text="단가" />
+                <TableColumn fx:id="quantityColumn" prefWidth="60.79998779296875" text="수량" />
+                <TableColumn fx:id="totalPriceColumn" minWidth="0.0" prefWidth="155.2000732421875" text="가격" />
+            </columns>
+        </TableView>
+        <Button layoutX="63.0" layoutY="255.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="전체취소" />
+        <Button layoutX="144.0" layoutY="255.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="67.0" text="선택취소" />
+        <Label fx:id="totalAmountLabel" layoutX="304.0" layoutY="239.0" prefHeight="13.0" prefWidth="153.0" text="총액 : 0원"/>
+        <Button layoutX="228.0" layoutY="255.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="73.0" text="주문수정" />
+        <Button layoutX="64.0" layoutY="286.0" mnemonicParsing="false" text="카드결제" />
+        <Button layoutX="145.0" layoutY="286.0" mnemonicParsing="false" text="현금결제" />
+    </children>
+</Pane>
