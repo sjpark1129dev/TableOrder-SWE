@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class TableViewBoundary {
     @FXML
-    private void handleTableManage(ActionEvent event) throws IOException {
+    private void openTableManager(ActionEvent event) throws IOException {
         Parent newRoot = FXMLLoader.load(getClass().getResource("/deu/swe2/tableorder/TableManagerUI.fxml"));
         Scene newScene = new Scene(newRoot, 800, 500); // 새 창 크기 지정
 

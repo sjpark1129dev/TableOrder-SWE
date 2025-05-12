@@ -19,7 +19,7 @@
             <children>
                 <Button layoutX="57.0" layoutY="28.0" mnemonicParsing="false"
                         prefHeight="33.0" prefWidth="88.0" text="테이블 관리"
-                        onAction="#handleTableManage"/>
+                        onAction="#openTableManager"/>
                 <Button layoutX="522.0" layoutY="28.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="88.0" text="특선 전환" />
                 <Button layoutX="206.0" layoutY="28.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="88.0" text="메뉴 관리" />
                 <Button layoutX="360.0" layoutY="28.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="88.0" text="매출 관리" />
